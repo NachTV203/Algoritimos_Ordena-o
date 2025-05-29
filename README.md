@@ -31,7 +31,6 @@ algoritmos-de-ordenacao/
 ├── shell_sort.py
 ├── merge_sort.py
 ├── quick_sort.py
-├── main.py
 └── README.md
 ```
 
