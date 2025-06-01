@@ -23,9 +23,9 @@ Ora, basta repetir esse mesmo processo para o restante do array. Vamos ver a exe
 
 Na primeira execução, 0 é o menor valor. Encontramos esse valor e trocamos com a primeira posição (70).
 
-[70, 90, 1, 3, 0, 100, 2]
+** **[70, 90, 1, 3, 0, 100, 2]
 
-[0, 90, 1, 3, 70, 100, 2]
+[0, 90, 1, 3, 70, 100, 2]** **
 
 Agora, aplicamos a mesma ideia para o restante do array, ou seja, no intervalo de índices [1,values.length−1].
 
