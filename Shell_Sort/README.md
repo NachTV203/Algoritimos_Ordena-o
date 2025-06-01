@@ -1,10 +1,10 @@
-# 📚 Shell Sort — Entendendo o Algoritmo
+#  Shell Sort — Entendendo o Algoritmo
 
 Este repositório tem como objetivo apresentar, de forma clara e detalhada, o algoritmo de ordenação **Shell Sort**, frequentemente estudado na disciplina de **Estrutura de Dados**. Além do código-fonte com comentários, você encontrará aqui uma explicação teórica completa sobre o funcionamento desse algoritmo, seu contexto histórico, seus prós e contras, e algumas considerações finais.
 
 ---
 
-## 🧠 O que é o Shell Sort?
+##  O que é o Shell Sort?
 
 O **Shell Sort** é um algoritmo de ordenação do tipo **in-place** (não utiliza estruturas auxiliares significativas) e **não-estável**. Ele é uma generalização do método da **inserção direta** (insertion sort), criada com o objetivo de reduzir o número de movimentações necessárias para ordenar uma lista.
 
@@ -12,7 +12,7 @@ Foi proposto em **1959** por **Donald Shell**, que também dá nome ao algoritmo
 
 
 
-## 🔍 Como funciona?
+##  Como funciona?
 
 O funcionamento do Shell Sort se baseia na ideia de comparar elementos que estão distantes entre si, reduzindo gradualmente essa distância (chamada de *gap*) até que o algoritmo se torne, na prática, um insertion sort comum.
 
@@ -24,15 +24,6 @@ O funcionamento do Shell Sort se baseia na ideia de comparar elementos que estã
 4. O processo termina quando o gap é igual a 1.
 
 Essa abordagem permite mover elementos rapidamente de uma extremidade da lista para outra, corrigindo grandes inversões que seriam custosas no insertion sort tradicional.
-
-
-
-### Exemplo de sequência de gaps:
-
-- n/2
-- n/4
-- ...
-- 1
 
 
 
@@ -53,13 +44,13 @@ Essa abordagem permite mover elementos rapidamente de uma extremidade da lista p
 
 
 
-## 📝 Considerações finais
+##  Considerações finais
 
 O Shell Sort é uma ótima introdução à ideia de ordenações mais eficientes e mostra como podemos melhorar algoritmos simples como o insertion sort. Mesmo que não seja o mais rápido, é uma boa escolha didática e pode ser útil em contextos onde a simplicidade e o baixo uso de memória são importantes.
 
 
 
-## 💻 Exemplo de implementação em Python:
+##  Exemplo de implementação em Python:
 
 ```python
 def shell_sort(arr):
