@@ -11,9 +11,9 @@ Casos de performance
 
 A performance do QuickSort pode mudar bastante conforme o particionamento é feito:
 
-• Pior caso: acontece quando o pivô divide a lista de forma beeem desigual, tipo colocando tudo num só lado. Isso gera muitas chamadas recursivas e o tempo sobe pra O(n²).
+- Pior caso: acontece quando o pivô divide a lista de forma beeem desigual, tipo colocando tudo num só lado. Isso gera muitas chamadas recursivas e o tempo sobe pra O(n²).
 
-• Melhor caso: ocorre quando o pivô divide a lista quase que ao meio. Assim, o algoritmo trabalha melhor, chegando numa complexidade média de O(n log n).
+- Melhor caso: ocorre quando o pivô divide a lista quase que ao meio. Assim, o algoritmo trabalha melhor, chegando numa complexidade média de O(n log n).
 Estabilidade do Algoritmo.
 
 QuickSort num é um algoritmo estável, entende? Elementos com o mesmo valor pode ser que tenham suas posições relativas trocadas durante a ordenação. Isso ocorre porque, nas trocas feitas, o algoritmo ignora a ordem original dos elementos idênticos.
