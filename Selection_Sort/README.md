@@ -23,30 +23,30 @@ Ora, basta repetir esse mesmo processo para o restante do array. Vamos ver a exe
 
 Na primeira execução, 0 é o menor valor. Encontramos esse valor e trocamos com a primeira posição (70).
 
-** **[70, 90, 1, 3, 0, 100, 2]** **
+###[70, 90, 1, 3, 0, 100, 2]
 
-** **[0, 90, 1, 3, 70, 100, 2]** **
+###[0, 90, 1, 3, 70, 100, 2]
 
 Agora, aplicamos a mesma ideia para o restante do array, ou seja, no intervalo de índices [1,values.length−1].
 
-** **[0, 90, 1, 3, 70, 100, 2]** **
+###[0, 90, 1, 3, 70, 100, 2]
 
-** **[0, 1, 90, 3, 70, 100, 2]** **
+###[0, 1, 90, 3, 70, 100, 2]
 
 Depois, aplicamos a mesma ideia para o restante do array, ou seja, no intervalo de índices [2,values.length−1].
 
-** **[0, 1, 90, 3, 70, 100, 2]** **
+###[0, 1, 90, 3, 70, 100, 2]
 
-** **[0, 1, 2, 3, 70, 100, 90]** **
+###[0, 1, 2, 3, 70, 100, 90]
 
 Continuamos aplicando a mesma ideia para o restante do array, ou seja, no intervalo de índices [3,values.length−1]
 . Como 3 já está no seu lugar, ele será trocado por ele mesmo. O mesmo acontece com o intervalo de índices [4,values.length−1], onde 70 já está em sua posição.
 
 Aplicando, então, para o intervalo de índices [5,values.length−1], temos:
 
-** **[0, 1, 2, 3, 70, 100, 90]** **
+###[0, 1, 2, 3, 70, 100, 90]
 
-** **[0, 1, 2, 3, 70, 90, 100]** **
+###[0, 1, 2, 3, 70, 90, 100]
 
 Por fim, aplicado para o intervalo [6,values.length−1], temos que 100 já está em sua posição.
 
