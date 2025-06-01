@@ -1,4 +1,4 @@
-# QuickSort
+# 🔀📊 Ordenação rápida? Quicksort ⚡️🎯⏱️
 
 **QuickSort**, sem duvida, se sobresai como um dos algoritmos de ordenação mais velozes e eficientes, concebido pelo cientista da computação britânico C. A. R. Hoare, la em 1960. O algoritmo, ele funciona sob a estratégia de dividir para conquistar, ou seja, seleciona um elemento chave, o pivô, e logo depois reorganiza os demais de forma que os menores fiquem à esquerda e os maiores, à direita. Essa etapa de reorganização é conhecida como particionamento. Feito isso, o pivô já está onde deveria estar, e o algoritmo então repete essa operação nas duas sublistas resultantes, aquelas que ainda não estão ordenadas.
 
