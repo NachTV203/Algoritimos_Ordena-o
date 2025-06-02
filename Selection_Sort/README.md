@@ -73,5 +73,5 @@ public static void selectionSort(int[] v) {
 
 # Resumo #
 
-O Selection Sort segue uma rotina bem simples e direta: encontrar o menor elemento
+O Selection Sort segue uma rotina bem simples e direta: encontrar o menor elemento e colocá-lo na primeira posição.
  
