@@ -19,3 +19,9 @@ Ainda assim, o Merge Sort é uma boa opção em várias situações.
 Ele é ligeiro, confiável, previsível e moleza de entender depois que aprende.
 
 Pra quem tá estudando algoritmos, saca como o Merge Sort trabalha, isso ajuda demais a ver a força da tática de dividir pra conquistar.
+
+# Referências: # 
+
+https://pt.wikipedia.org/wiki/Merge_sort
+
+https://joaoarthurbm.github.io/eda/posts/merge-sort/
