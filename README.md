@@ -85,3 +85,7 @@ python main.py
 - Rafael Junio Azevedo Souza - UDF - Ciência da Computação
 - Sammuel Heythor Rodrigues dos Santos - UDF - Ciência da Computação
 - Víctor Alves Moreira - UDF - Ciência da Computação
+
+## Trabalho feito sem o uso de IAs
+![image](https://github.com/user-attachments/assets/304553f4-8cd1-4f46-b533-177d08ffe02a)
+
