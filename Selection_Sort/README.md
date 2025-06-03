@@ -2,34 +2,12 @@
 
 
 Selecionando o menor.
-Este algoritmo é elementar. Basta percorrer o array comparando os elementos para determinar qual é o menor. No início, assumimos que o menor elemento está no índice 0 (indice_menor = 0) e iteramos a partir do segundo índice comparando os elementos.
-
+O Selection Sort é um algoritmo de ordenação simples que funciona selecionando o menor elemento não ordenado e movendo-o para a posição correta. Em cada passo, o algoritmo encontra o elemento mínimo na parte não ordenada da lista e troca com o elemento na posição atual. Esse processo é repetido até que toda a lista esteja ordenada. 
 
 
 ## Exemplo:
 
-
-...
-// encontra o índice do menor elemento
-int indice_menor = 0; // Assume que o menor elemento está na posição 0
-for (int i = 1; i < v.length; i++) { // Percorre o vetor a partir da posição 1
-	if (v[i] < v[indice_menor]) // Se encontrar um valor menor que o atual menor
-		indice_menor = i; // Atualiza o índice do menor valor
-}
-
-// coloca o menor na primeira posição
-int aux = v[0]; // Guarda o valor da primeira posição
-v[0] = v[indice_menor]; // Coloca o menor valor na posição 0
-v[indice_menor] = aux; // Coloca o valor antigo da posição 0 na posição onde estava o menor
-...
-
-	
-
-
-Ao fim da execução deste algoritmo temos uma certeza: o menor elemento está no índice 0 do array.
-
-Como usar esta rotina para ordenar um array?
-Ora, basta repetir esse mesmo processo para o restante do array. Vamos ver a execução para o values=[70,90,1,3,0,100,2]
+ Vamos ver a execução para o values=[70,90,1,3,0,100,2]
 
 Na primeira execução, 0 é o menor valor. Encontramos esse valor e trocamos com a primeira posição (70).
 
