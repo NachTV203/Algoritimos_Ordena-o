@@ -36,7 +36,7 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 5.Repete o processo até o final da lista.
 
-#Vantagens
+# Vantagens
 
 1.Algoritmo de classificação estável;
 
@@ -52,7 +52,7 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 7.Eficiente para pequenos números de dados.
 
-#Desvantagens
+# Desvantagens
 
 1.Desenpenho proporcional ao longaritmo, ou seja, ele demora em grandes listas;
 
