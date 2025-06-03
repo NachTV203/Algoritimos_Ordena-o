@@ -63,7 +63,7 @@ public static void selectionSort(int[] v) {	--Ordenar o vetor usando selection s
 
 O Selection Sort segue uma rotina bem simples e direta: encontrar o menor elemento e colocá-lo na primeira posição. A ordenação nada mais é do que aplicar essa rotina repetidas vezes para o restante do array.
 
-# Referências #
+# 📚Referências #
 
 https://joaoarthurbm.github.io/eda/posts/selection-sort/
  
