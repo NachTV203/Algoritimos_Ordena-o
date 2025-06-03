@@ -50,3 +50,8 @@ Esse processo se repete até que nenhuma troca seja precisa numa passada complet
 - Quase nunca a Melhor Opção: Dada sua falta de eficiência, dificilmente eh a melhor opção em aplicações reais, exceto talvez em conjuntos de dados muito pequenos ou pra fins de aprendizado.
 
 - Os algoritmos preferidos são aqueles como Merge Sort Quick Sort, ou mesmo o Insertion Sort que por ventura demonstra uma complexidade O(n²) no entanto pode ser mais ligeiro na prática.
+
+## 📚 Referências
+
+- https://panda.ime.usp.br/panda/static/pythonds_pt/05-OrdenacaoBusca/OBubbleSort.html
+- https://computerscience360.files.wordpress.com/2018/02/algoritmos-teoria-e-prc3a1tica-3ed-thomas-cormen.pdf (Pagina 25 - 46)
