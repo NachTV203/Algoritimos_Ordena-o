@@ -86,3 +86,14 @@ print(ordenada)
 - Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). *Introduction to Algorithms* (4th ed.). MIT Press.  
 - Sedgewick, R., & Wayne, K. (2011). *Algorithms* (4th ed.). Addison-Wesley.  
 - Ziviani, N. (2018). *Algoritmos: Teoria e Prática* (3ª ed.). Cengage Learning.
+
+
+## 📚 Alunos Responsaveis
+
+- Beatriz Nevis Miranda - UDF - Ciência da Computação
+- Jaiza Michelle Moreira de Carvalho - UDF - Ciência da Computação
+- Mauricio Gabriel Gemmal Fonseca - UDF - Ciência da Computação
+- Paulo André Gemmal Fonseca - UDF - Ciência da Computação
+- Rafael Junio Azevedo Souza - UDF - Ciência da Computação
+- Sammuel Heythor Rodrigues dos Santos - UDF - Ciência da Computação
+- Víctor Alves Moreira - UDF - Ciência da Computação
