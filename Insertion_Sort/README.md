@@ -12,9 +12,9 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 -> [3, 9, 5, 1]  → insere 3
 -> [3, 9, 9, 1,]  → move 9
 -> [3, 5, 9, 1,]  → insere 5
--> [3, 5, 9, 9]   → move 9  
--> [3, 5, 5, 9]   → move 5  
--> [3, 3, 5, 9]   → move 3  
+-> [3, 5, 9, 9]   → move 9
+-> [3, 5, 5, 9]   → move 5
+-> [3, 3, 5, 9]   → move 3 
 -> [1, 3, 5, 9]   → insere 1
 
 # Etapas de Funcionamento
