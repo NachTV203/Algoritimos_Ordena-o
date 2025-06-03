@@ -8,6 +8,24 @@ A cada nova carta adicionada à sua mão de cartas, a nova carta pode ser menor 
 
 Esta é a ideia por trás da ordenação por inserção. Percorra as posições do array, começando com o índice 1 (um). Cada nova posição é como a nova carta que você recebeu, e você precisa inseri-la no lugar correto no subarray ordenado à esquerda daquela posição.
 
+# Exemplo de Funcionamento
+
+def insertion_sort(lista):
+    for i in range(1, len(lista)):
+        chave = lista[i]
+        j = i - 1
+        while j >= 0 and lista[j] > chave:
+            lista[j + 1] = lista[j]
+            j -= 1
+        lista[j + 1] = chave
+    return lista
+
+# Exemplo de uso com a lista não ordenada
+valores = [9, 3, 5, 2, 1, 4]
+print("Antes de ordenar:", valores)
+valores_ordenados = insertion_sort(valores)
+print("Depois de ordenar:", valores_ordenados)
+
 # Referências Bibliográficas
 
-https://pt.wikipedia.org/wiki/Insertion_sort; 
+https://pt.wikipedia.org/wiki/Insertion_sort; https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/insert.html; 
