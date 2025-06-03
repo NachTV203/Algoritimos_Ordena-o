@@ -17,6 +17,18 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 -> [3, 3, 5, 9]   → move 3  
 -> [1, 3, 5, 9]   → insere 1
 
+# Etapas de Funcionamento
+
+1.Começa do segundo elemento (posição 1).
+
+2.Compara o elemento atual com os anteriores.
+
+3.Move os maiores elementos para a direita.
+
+4.Insere o elemento atual na posição correta.
+
+5.Repete o processo até o final da lista.
+
 # Referências Bibliográficas
 
 https://pt.wikipedia.org/wiki/Insertion_sort; https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/insert.html; 
