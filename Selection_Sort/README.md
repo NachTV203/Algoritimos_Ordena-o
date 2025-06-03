@@ -6,7 +6,8 @@ Este algoritmo é elementar. Basta percorrer o array comparando os elementos par
 
 
 
-Exemplo:
+## Exemplo:
+
 // encontra o índice do menor elemento
 	int indice_menor = 0;
 	for (int i = 1; i < v.length; i++) {
