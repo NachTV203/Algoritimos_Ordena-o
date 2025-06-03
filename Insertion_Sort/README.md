@@ -28,26 +28,28 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 1.Começa do segundo elemento (posição 1).
 
-
 2.Compara o elemento atual com os anteriores.
-
 
 3.Move os maiores elementos para a direita.
 
-
 4.Insere o elemento atual na posição correta.
-
 
 5.Repete o processo até o final da lista.
 
 #Vantagens
 
 1.Algoritmo de classificação estável;
+
 2.Eficiente para listas pequenas, ordenadas, e listas quase classificadas;
+
 3.Eficiente em termos de espaço, pois é um algoritmo no local;
+
 4.O número de inversões é diretamente proporcional ao número de trocas (swaps);
+
 5.Simples de entender;
+
 6.Não necessita de espaço extra significatigo graças a oedenagem in-place;
+
 7.Eficiente para pequenos números de dados.
 
 #Desvantagens
