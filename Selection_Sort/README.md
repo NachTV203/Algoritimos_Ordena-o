@@ -8,7 +8,8 @@ Este algoritmo é elementar. Basta percorrer o array comparando os elementos par
 
 ## Exemplo:
 
- encontra o índice do menor elemento
+...
+	// encontra o índice do menor elemento
 	int indice_menor = 0;
 	for (int i = 1; i < v.length; i++) {
 		if (v[i] < v[indice_menor])
@@ -21,6 +22,8 @@ Este algoritmo é elementar. Basta percorrer o array comparando os elementos par
 	v[indice_menor] = aux;
 }
 ...
+
+
 Ao fim da execução deste algoritmo temos uma certeza: o menor elemento está no índice 0 do array.
 
 Como usar esta rotina para ordenar um array?
