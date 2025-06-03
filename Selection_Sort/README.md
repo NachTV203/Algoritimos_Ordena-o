@@ -57,7 +57,7 @@ public static void selectionSort(int[] v) {	--Ordenar o vetor usando selection s
 	for (int i = 0; i < v.length; i++) {  --percorre a posição do vetor
 		
 		int i_menor = i;   --o menor vetor está na posição  --percorre o restante do vetor
-		for (int j = i + 1; j < v.length; j++)
+		for (int j = i + 1; j < v.length; j++)  --se encontrar um valor menor 
 			if (v[j] < v[i_menor])
 				i_menor = j;
 		
