@@ -8,7 +8,7 @@ Este algoritmo é elementar. Basta percorrer o array comparando os elementos par
 
 ## Exemplo:
 
-// encontra o índice do menor elemento
+ encontra o índice do menor elemento
 	int indice_menor = 0;
 	for (int i = 1; i < v.length; i++) {
 		if (v[i] < v[indice_menor])
