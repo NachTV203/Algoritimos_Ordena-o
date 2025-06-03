@@ -10,18 +10,17 @@ Este algoritmo é elementar. Basta percorrer o array comparando os elementos par
 
 
 ...
-	// encontra o índice do menor elemento
-	int indice_menor = 0;
-	for (int i = 1; i < v.length; i++) {
-		if (v[i] < v[indice_menor])
-			indice_menor = i;
-	}
-
-	// coloca o menor na primeira posição
-	int aux = v[0];
-	v[0] = v[indice_menor];
-	v[indice_menor] = aux;
+// encontra o índice do menor elemento
+int indice_menor = 0; // Assume que o menor elemento está na posição 0
+for (int i = 1; i < v.length; i++) { // Percorre o vetor a partir da posição 1
+	if (v[i] < v[indice_menor]) // Se encontrar um valor menor que o atual menor
+		indice_menor = i; // Atualiza o índice do menor valor
 }
+
+// coloca o menor na primeira posição
+int aux = v[0]; // Guarda o valor da primeira posição
+v[0] = v[indice_menor]; // Coloca o menor valor na posição 0
+v[indice_menor] = aux; // Coloca o valor antigo da posição 0 na posição onde estava o menor
 ...
 
 	
