@@ -16,12 +16,7 @@ Este algoritmo é elementar. Basta percorrer o array comparando os elementos par
 			indice_menor = i;
 	}
 
-	// coloca o menor na primeira posição
-	int aux = v[0];
-	v[0] = v[indice_menor];
-	v[indice_menor] = aux;
-}
-...
+	
 
 
 Ao fim da execução deste algoritmo temos uma certeza: o menor elemento está no índice 0 do array.
