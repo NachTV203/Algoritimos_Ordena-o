@@ -20,3 +20,8 @@ Estabilidade do Algoritmo.
 QuickSort num é um algoritmo estável, entende? Elementos com o mesmo valor pode ser que tenham suas posições relativas trocadas durante a ordenação. Isso ocorre porque, nas trocas feitas, o algoritmo ignora a ordem original dos elementos idênticos.
 
 Apesar d'existirem jeitos de deixar o QuickSort estável, essas mudanças pedem modificações no processo de partição, e com isso a velocidade do algoritmo pode diminuir. Por isso, normalmente, a gente escolhe a versão original quando a estabilidade num é uma necessidade grande.
+
+# Referências: #
+
+https://pt.wikipedia.org/wiki/Quicksort
+https://joaoarthurbm.github.io/eda/posts/quick-sort/
