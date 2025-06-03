@@ -28,11 +28,15 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 1.Começa do segundo elemento (posição 1).
 
+
 2.Compara o elemento atual com os anteriores.
+
 
 3.Move os maiores elementos para a direita.
 
+
 4.Insere o elemento atual na posição correta.
+
 
 5.Repete o processo até o final da lista.
 
