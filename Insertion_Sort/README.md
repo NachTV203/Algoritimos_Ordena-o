@@ -9,7 +9,7 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 [9, 3, 5, 1] Números utilizados em uma array para explicar sobre o Insert Sort
 
 [9, 9, 5, 1]   → move 9  
-[3, 9, 5, 1]   → insere 3
+[3, 9, 5, 1]   → insere 3 
 [3, 9, 9, 1]   → move 9  
 [3, 5, 9, 1]   → insere 5
 [3, 5, 9, 9]   → move 9  
