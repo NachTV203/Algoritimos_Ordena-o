@@ -83,10 +83,13 @@ print(ordenada)
 
 ## 📚 Referências
 
-- Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). *Introduction to Algorithms* (4th ed.). MIT Press.  
-- Sedgewick, R., & Wayne, K. (2011). *Algorithms* (4th ed.). Addison-Wesley.  
+- Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). *Introduction to Algorithms* (4th ed.). MIT Press.
+  
+- Sedgewick, R., & Wayne, K. (2011). *Algorithms* (4th ed.). Addison-Wesley.
+  
 - Ziviani, N. (2018). *Algoritmos: Teoria e Prática* (3ª ed.). Cengage Learning.
-
+  
+- Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python. Versão original em inglês por Brad Miller e David Ranum, Luther College. Traduzido por Andrew Toshiaki Nakayama Kurauchi, Carlos Eduardo Leão Elmadjian, Carlos Hitoshi Morimoto e José Coelho de Pina, IME-USP.
 
 ## 📚 Alunos Responsaveis
 
