@@ -56,14 +56,14 @@ Feito! O array está ordenado. Note que apenas executamos a rotina de encontrar 
 public static void selectionSort(int[] v) {	--Ordenar o vetor usando selection sort
 	for (int i = 0; i < v.length; i++) {  --percorre a posição do vetor
 		
-		int i_menor = i;   --o menor vetor está na posição  --percorre o restante do vetor
-		for (int j = i + 1; j < v.length; j++)  --se encontrar um valor menor 
-			if (v[j] < v[i_menor])  --atualiza o indice de menor valor 
-				i_menor = j;  --guarda o valor atual
+		int i_menor = i;   --o menor vetor está na posição  
+		for (int j = i + 1; j < v.length; j++)   --percorre o restante do vetor  
+			if (v[j] < v[i_menor])     --se encontrar um valor menor
+				i_menor = j;    --atualiza o indice de menor valor
 		
-		int aux = v[i];  --coloca o menor valor na posição atual
-		v[i] = v[i_menor];
-		v[i_menor] = aux;
+		int aux = v[i];    --guarda o valor atual
+		v[i] = v[i_menor];   --coloca o menor valor na posição atual
+		v[i_menor] = aux;   --Coloca o valor antigo (de i) na posição onde estava o menor
 	
 	}		
 }
