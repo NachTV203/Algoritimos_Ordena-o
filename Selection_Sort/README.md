@@ -3,6 +3,10 @@
 
 Selecionando o menor.
 Este algoritmo é elementar. Basta percorrer o array comparando os elementos para determinar qual é o menor. No início, assumimos que o menor elemento está no índice 0 (indice_menor = 0) e iteramos a partir do segundo índice comparando os elementos.
+
+
+
+Exemplo:
 // encontra o índice do menor elemento
 	int indice_menor = 0;
 	for (int i = 1; i < v.length; i++) {
