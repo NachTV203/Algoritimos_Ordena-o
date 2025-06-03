@@ -36,6 +36,20 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 5.Repete o processo até o final da lista.
 
+#Vantagens
+
+1.Algoritmo de classificação estável;
+2.Eficiente para listas pequenas, ordenadas, e listas quase classificadas;
+3.Eficiente em termos de espaço, pois é um algoritmo no local;
+4.O número de inversões é diretamente proporcional ao número de trocas (swaps);
+5.Simples de entender;
+6.Não necessita de espaço extra significatigo graças a oedenagem in-place;
+7.Eficiente para pequenos números de dados.
+
+#Desvantagens
+
+1.Desenpenho proporcional ao longaritmo, ou seja, ele demora em grandes listas;
+
 # Referências Bibliográficas
 
-https://pt.wikipedia.org/wiki/Insertion_sort; https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/insert.html; 
+https://pt.wikipedia.org/wiki/Insertion_sort; https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/insert.html; https://www.dio.me/articles/algoritmos-de-ordenacao-eficiencia-em-diferentes-estruturas-de-dados
