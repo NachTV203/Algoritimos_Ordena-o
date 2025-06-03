@@ -24,4 +24,6 @@ Apesar d'existirem jeitos de deixar o QuickSort estável, essas mudanças pedem 
 # Referências: #
 
 https://pt.wikipedia.org/wiki/Quicksort
+
+
 https://joaoarthurbm.github.io/eda/posts/quick-sort/
