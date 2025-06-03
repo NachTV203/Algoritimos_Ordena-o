@@ -8,7 +8,7 @@ Uma das maneiras mais populares de executar essa divisão é usando o método de
 
 Apesar de ser descomplicado e fácil de se compreender, o método Lomuto pode numas situações ser ineficiente, tipo quando a lista já tá ordenada ou cheia de itens iguais. Nesses casos, a complexidade do algoritmo pode subir pra O(n²). Pra não ter isso, dá pra usar outras táticas, tipo escolher o pivô de maneira mais esperta, usar outros métodos (como o Insertion Sort em listas pequenas) e jeitos mais eficientes de tratar elementos repetidos.
 
-Casos de performance
+Casos de performance:
 
 A performance do QuickSort pode mudar bastante conforme o particionamento é feito:
 
