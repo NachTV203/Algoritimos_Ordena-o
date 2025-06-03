@@ -58,8 +58,8 @@ public static void selectionSort(int[] v) {	--Ordenar o vetor usando selection s
 		
 		int i_menor = i;   --o menor vetor está na posição  --percorre o restante do vetor
 		for (int j = i + 1; j < v.length; j++)  --se encontrar um valor menor 
-			if (v[j] < v[i_menor])
-				i_menor = j;
+			if (v[j] < v[i_menor])  --atualiza o indice de menor valor 
+				i_menor = j;  --guarda o valor atual
 		
 		int aux = v[i];
 		v[i] = v[i_menor];
