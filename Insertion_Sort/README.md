@@ -56,6 +56,10 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 1.Desenpenho proporcional ao longaritmo, ou seja, ele demora em grandes listas;
 
+# Complexidade O(n²).
+
+A Complexidade quadrática ocorre quando os itens de dados são processados aos pares, muitas vezes em uma repetição dentro da outra. Algoritmos deste tipo somente são úteis para resolver problemas de tamanhos relativamente pequenos.
+
 # Referências
 
 https://pt.wikipedia.org/wiki/Insertion_sort; https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/insert.html; https://www.dio.me/articles/algoritmos-de-ordenacao-eficiencia-em-diferentes-estruturas-de-dados
