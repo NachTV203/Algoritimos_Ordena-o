@@ -8,14 +8,6 @@ A cada nova carta adicionada à sua mão de cartas, a nova carta pode ser menor 
 
 Esta é a ideia por trás da ordenação por inserção. Percorra as posições do array, começando com o índice 1 (um). Cada nova posição é como a nova carta que você recebeu, e você precisa inseri-la no lugar correto no subarray ordenado à esquerda daquela posição.
 
-
-
-
-
-
-
-
-
 # Referências Bibliográficas
 
 https://pt.wikipedia.org/wiki/Insertion_sort; 
