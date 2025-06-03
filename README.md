@@ -58,21 +58,6 @@ python main.py
 
 ---
 
-## 📈 Exemplos de Uso
-
-Exemplo de ordenação com Bubble Sort:
-
-```python
-from bubble_sort import bubble_sort
-
-lista = [5, 2, 9, 1, 5, 6]
-ordenada = bubble_sort(lista)
-print(ordenada)
-# Saída: [1, 2, 5, 5, 6, 9]
-```
-
----
-
 ## 🧠 O que você aprenderá
 
 - Diferenças entre algoritmos estáveis e instáveis
