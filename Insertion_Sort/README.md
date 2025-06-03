@@ -56,6 +56,6 @@ Esta é a ideia por trás da ordenação por inserção. Percorra as posições 
 
 1.Desenpenho proporcional ao longaritmo, ou seja, ele demora em grandes listas;
 
-# Referências Bibliográficas
+# Referências
 
 https://pt.wikipedia.org/wiki/Insertion_sort; https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/insert.html; https://www.dio.me/articles/algoritmos-de-ordenacao-eficiencia-em-diferentes-estruturas-de-dados
