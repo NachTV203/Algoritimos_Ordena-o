@@ -46,20 +46,6 @@ Cada arquivo contém a implementação individual de um algoritmo. O arquivo `ma
 
 - Python 3.8 ou superior instalado no sistema
 
-### Executar um algoritmo individual
-
-```bash
-python bubble_sort.py
-```
-
-Ou utilizar o `main.py` para comparar múltiplos algoritmos:
-
-```bash
-python main.py
-```
-
----
-
 ## 🧠 O que você aprenderá
 
 - Diferenças entre algoritmos estáveis e instáveis
