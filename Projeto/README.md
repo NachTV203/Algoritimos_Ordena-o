@@ -1,6 +1,6 @@
 # Algoritmos de Ordenação 
 
-Nosso Commit apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação. 
+Nosso Commit apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico que se adequa ao comando. 
 
 # 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):*
 
@@ -16,7 +16,7 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
     
 *   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
 
-*   **Classe Principal `SortingVisualizerApp`:**
+  **Classe Principal `SortingVisualizerApp`:**
     *   **`__init__(self, master)` (Construtor e Configuração da UI):**
         *   Inicializa a janela principal (`master`) com título, geometria e cor de fundo.
         *   Define variáveis de estado da aplicação (`algorithm_name`, `data`, `data_size`,
