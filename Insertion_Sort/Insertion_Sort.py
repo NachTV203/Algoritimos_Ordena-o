@@ -31,7 +31,7 @@ def insertion_sort(cartas):
     return cartas
 
 
-# ------------------------------------------------------------------------------
+# --------------------------------
 
 if __name__ == "__main__":
     # Aqui eu testei o algoritmo
