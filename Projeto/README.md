@@ -1,8 +1,9 @@
-# Algoritmos de Ordenação 
+# 📊 Algoritmos de Ordenação
+
 
 Nosso Commit apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico que se adequa ao comando. 
 
-# 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):
+# ⚙️ 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):
 
 O script também contém a lógica principal da aplicação GUI construída usando Tkinter.
 
@@ -108,7 +109,7 @@ Obs2: Tkinter é uma biblioteca da linguagem Python que acompanha a instalação
   
   *   Ponto de entrada padrão para iniciar a aplicação Tkinter, criando a janela raiz e instanciando `SortingVisualizerApp`.
 
-# **2. `setup.py` (Script de Build com `cx_Freeze`):**
+# ❄️ **2. `setup.py` (Script de Build com `cx_Freeze`):**
 
 Este script é usado para compilar o `EstruturadeOrdenacao.py` em um executável standalone, facilitando a distribuição.
 
