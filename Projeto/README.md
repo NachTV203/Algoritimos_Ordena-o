@@ -71,7 +71,7 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
         *   Configura o protocolo `WM_DELETE_WINDOW` para chamar `confirm_exit`.
 
     *   **Métodos de Interface e Lógica:**
-        *   `show_about_dialog()`: Cria e exibe uma janela `Toplevel` modal com as informações dos alunos (`STUDENT_INFO`).
+           `show_about_dialog()`: Cria e exibe uma janela `Toplevel` modal com as informações dos alunos (`STUDENT_INFO`).
         *   `update_status(message)`: Atualiza o texto da barra de status.
         *   `update_explanation_display(event=None)`: Atualiza o painel de explicação com base no algoritmo selecionado.
         *   `generate_data(reset_algo=True)`: Gera uma lista de números aleatórios com base em `data_size`, redesenha e atualiza o status.
