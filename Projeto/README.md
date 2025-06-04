@@ -71,21 +71,27 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
         *   Configura o protocolo `WM_DELETE_WINDOW` para chamar `confirm_exit`.
 
   **Métodos de Interface e Lógica:**
-           `show_about_dialog()`: Cria e exibe uma janela `Toplevel` modal com as informações dos alunos (`STUDENT_INFO`).
-        *   `update_status(message)`: Atualiza o texto da barra de status.
-        *   `update_explanation_display(event=None)`: Atualiza o painel de explicação com base no algoritmo selecionado.
-        *   `generate_data(reset_algo=True)`: Gera uma lista de números aleatórios com base em `data_size`, redesenha e atualiza o status.
-        *   `draw_data(color_info={})`: Limpa o canvas e desenha as barras representando os elementos da lista. `color_info` é um dicionário que especifica cores para barras específicas (comparadas, trocadas, ordenadas, etc.).
-        *   `start_sort()`: Prepara a aplicação para a ordenação (desabilita controles, reseta contadores), seleciona o gerador do algoritmo e inicia a animação.
-        *   `toggle_pause()`: Alterna o estado de pausa da animação.
-        *   `animate_step()`: Núcleo da animação. Obtém o próximo estado (passo) do gerador do algoritmo, chama `draw_data` para atualizar o canvas e agenda a próxima chamada a si mesma usando `master.after()` com base na 
+        *  `show_about_dialog()`: Cria e exibe uma janela `Toplevel` modal com as informações dos alunos (`STUDENT_INFO`).
+        
+  *   `update_status(message)`: Atualiza o texto da barra de status.
+        
+  *   `update_explanation_display(event=None)`: Atualiza o painel de explicação com base no algoritmo selecionado.
+        
+  *   `generate_data(reset_algo=True)`: Gera uma lista de números aleatórios com base em `data_size`, redesenha e atualiza o status.
+        
+  *   `draw_data(color_info={})`: Limpa o canvas e desenha as barras representando os elementos da lista. `color_info` é um dicionário que especifica cores para barras específicas (comparadas, trocadas, ordenadas, etc.).
+        
+  *   `start_sort()`: Prepara a aplicação para a ordenação (desabilita controles, reseta contadores), seleciona o gerador do algoritmo e inicia a animação.
+        
+  *   `toggle_pause()`: Alterna o estado de pausa da animação.
+        
+  *   `animate_step()`: Núcleo da animação. Obtém o próximo estado (passo) do gerador do algoritmo, chama `draw_data` para atualizar o canvas e agenda a próxima chamada a si mesma usando `master.after()` com base na `animation_speed`. Lida com `StopIteration` para finalizar a animação.
+        
+  *   `reset_visualization()`: Interrompe qualquer ordenação em progresso, reabilita os controles e redesenha os dados no estado atual.
+        
+  *   `confirm_exit()`: Exibe um `messagebox` de confirmação antes de fechar a aplicação, especialmente se uma ordenação estiver em andamento.
 
-`animation_speed`. Lida 
-com `StopIteration` para finalizar a animação.
-        *   `reset_visualization()`: Interrompe qualquer ordenação em progresso, reabilita os controles e redesenha os dados no estado atual.
-        *   `confirm_exit()`: Exibe um `messagebox` de confirmação antes de fechar a aplicação, especialmente se uma ordenação estiver em andamento.
-
-    *   **Geradores de Algoritmos de Ordenação (`_gen`):**
+  **Geradores de Algoritmos de Ordenação (`_gen`):**
         *   `bubble_sort_gen()`, `selection_sort_gen()`, `insertion_sort_gen()`:
             *   Implementações dos algoritmos modificadas para funcionar como geradores.
             *   Usam `yield color_info` em cada passo crucial (comparação, troca) para "pausar" a execução do algoritmo e permitir que a GUI se atualize.
