@@ -17,24 +17,24 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
 *   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
 
   **Classe Principal `SortingVisualizerApp`:**
-    *   **`__init__(self, master)` (Construtor e Configuração da UI):**
+  * `__init__(self, master)` (Construtor e Configuração da UI):
     
-        *   Inicializa a janela principal (`master`) com título, geometria e cor de fundo.
+  * Inicializa a janela principal (`master`) com título, geometria e cor de fundo.
         
-        *   Define variáveis de estado da aplicação (`algorithm_name`, `data`, `data_size`, `animation_speed`, `generator`, `is_sorting`, `is_paused`).
+  *   Define variáveis de estado da aplicação (`algorithm_name`, `data`, `data_size`, `animation_speed`, `generator`, `is_sorting`, `is_paused`).
             
-        *   Configura estilos `ttk` para uma aparência melhorada dos widgets.
+  *   Configura estilos `ttk` para uma aparência melhorada dos widgets.
         
-        *   **Barra de Menu:**
+        **Barra de Menu:**
         
-            *   Cria uma barra de menu com "Arquivo" (opção "Sair") e "Ajuda"
+        Cria uma barra de menu com "Arquivo" (opção "Sair") e "Ajuda"
                 (opção "Sobre...").
                 
-        *   **Frame de Controles (`controls_frame`):**
+ **Frame de Controles (`controls_frame`):**
         
-            *   Contém widgets para interação do usuário:
+  *   Contém widgets para interação do usuário:
             
-                *   `ttk.Combobox` (`algo_menu`): Para selecionar o algoritmo de ordenação.
+  *   `ttk.Combobox` (`algo_menu`): Para selecionar o algoritmo de ordenação.
                     Vinculado a `update_explanation_display`.
                     
                 *   `ttk.Scale` (`size_scale`): Para ajustar o tamanho da lista de dados.
