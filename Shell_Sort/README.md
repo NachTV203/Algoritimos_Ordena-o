@@ -49,6 +49,21 @@ Essa abordagem permite mover elementos rapidamente de uma extremidade da lista p
 O Shell Sort é uma ótima introdução à ideia de ordenações mais eficientes e mostra como podemos melhorar algoritmos simples como o insertion sort. Mesmo que não seja o mais rápido, é uma boa escolha didática e pode ser útil em contextos onde a simplicidade e o baixo uso de memória são importantes.
 
 
+## Referências
+
+Livro:
+
+Knuth, D. E. (1998). The art of computer programming: Volume 3 - Sorting and searching (2nd ed.). Boston: Addison-Wesley.
+
+Artigo original:
+
+Shell, D. L. (1959). A high-speed sorting procedure. Communications of the ACM, 2(7), 30–32
+
+Shell Sort no site pandas:
+
+https://panda.ime.usp.br/panda/static/pythonds_pt/05-OrdenacaoBusca/OShellSort.html
+
+
 
 ##  Exemplo de implementação em Python:
 
