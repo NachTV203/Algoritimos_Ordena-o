@@ -18,33 +18,56 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
 
   **Classe Principal `SortingVisualizerApp`:**
     *   **`__init__(self, master)` (Construtor e Configuração da UI):**
+    
         *   Inicializa a janela principal (`master`) com título, geometria e cor de fundo.
-        *   Define variáveis de estado da aplicação (`algorithm_name`, `data`, `data_size`,
-            `animation_speed`, `generator`, `is_sorting`, `is_paused`).
+        
+        *   Define variáveis de estado da aplicação (`algorithm_name`, `data`, `data_size`, `animation_speed`, `generator`, `is_sorting`, `is_paused`).
+            
         *   Configura estilos `ttk` para uma aparência melhorada dos widgets.
+        
         *   **Barra de Menu:**
+        
             *   Cria uma barra de menu com "Arquivo" (opção "Sair") e "Ajuda"
                 (opção "Sobre...").
+                
         *   **Frame de Controles (`controls_frame`):**
+        
             *   Contém widgets para interação do usuário:
+            
                 *   `ttk.Combobox` (`algo_menu`): Para selecionar o algoritmo de ordenação.
                     Vinculado a `update_explanation_display`.
+                    
                 *   `ttk.Scale` (`size_scale`): Para ajustar o tamanho da lista de dados.
                     Vinculado a `generate_data`.
+                    
                 *   `ttk.Scale` (`speed_scale`): Para controlar a velocidade da animação.
+                
                 *   `ttk.Button` (`generate_button`): Para gerar uma nova lista aleatória.
+                
                 *   `ttk.Button` (`start_button`): Para iniciar o processo de ordenação.
+                
                 *   `ttk.Button` (`pause_button`): Para pausar/continuar a animação.
+                
                 *   `ttk.Button` (`reset_button`): Para interromper a ordenação e resetar.
+                
         *   **Frame de Exibição Principal (`main_display_frame`):**
+        
             *   `tk.Canvas` (`canvas`): Área onde as barras representando os dados são desenhadas e animadas.
+            
             *   Frame de Explicação (`explanation_frame`):
+            
                 *   `ttk.Label` (`explanation_title`): Título do algoritmo selecionado.
+                
                 *   `tk.Text` (`explanation_text_widget`): Exibe o texto explicativo do algoritmo (conteúdo de `EXPLANATIONS`).
+                
         *   **Barra de Status (`status_bar`):**
+        
             *   `ttk.Label` no rodapé para exibir mensagens de status e contagem de comparações/trocas.
+            
         *   Inicializa a contagem de `comparisons` e `swaps`.
+        
         *   Chama `generate_data()` e `update_explanation_display()` na inicialização.
+        
         *   Configura o protocolo `WM_DELETE_WINDOW` para chamar `confirm_exit`.
 
     *   **Métodos de Interface e Lógica:**
