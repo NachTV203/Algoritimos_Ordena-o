@@ -5,7 +5,6 @@ Descrição:
 Imagina que você está separando figurinhas
 Você escolhe uma figurinha que vira o pivô
 Depois separa as menores pra um lado e as maiores pro outro
-
 Faz isso com cada lado até que tudo fique organizado
 É como se fosse dividir até ficar tudo certo
 """
