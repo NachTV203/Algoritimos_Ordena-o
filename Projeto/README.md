@@ -1,6 +1,6 @@
 # 📊 Algoritmos de Ordenação
 
-Algoritmo de ordenação é um algoritmo, de manipulação de dados, que coloca os elementos de uma dada sequência em uma certa ordem, em outras palavras, efetua sua ordenação completa ou parcial. Nosso Projeto apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico.. 
+Algoritmo de ordenação é um algoritmo, de manipulação de dados, que coloca os elementos de uma dada sequência em uma certa ordem, em outras palavras, efetua sua ordenação completa ou parcial. Nosso Projeto apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico. 
 
 # ⚙️ 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):
 
