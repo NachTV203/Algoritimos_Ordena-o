@@ -2,13 +2,15 @@
 
 Nosso Commit apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico que se adequa ao comando. 
 
-# 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):*
+# 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):
 
 O script também contém a lógica principal da aplicação GUI construída usando Tkinter.
 
-Obs: Aplicação GUI é um programa de computador que permite a comunicação com um computador por meio de símbolos, metáforas visuais e dispositivos apontadores.
+Obs1: Aplicação GUI é um programa de computador que permite a comunicação com um computador por meio de símbolos, metáforas visuais e dispositivos apontadores.
 
-**Estruturas de Dados Iniciais:**
+Obs2: Tkinter é uma biblioteca da linguagem Python que acompanha a instalação padrão e permite desenvolver interfaces gráficas.
+
+**1-Estruturas de Dados Iniciais:**
 
 * `EXPLANATIONS`: Dicionário que armazena os textos explicativos detalhados para cada algoritmo de ordenação.
   
@@ -16,7 +18,7 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
     
 *   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
 
-  **Classe Principal `SortingVisualizerApp`:**
+  **2-Classe Principal `SortingVisualizerApp`:**
   * `__init__(self, master)` (Construtor e Configuração da UI):
     
   * Inicializa a janela principal (`master`) com título, geometria e cor de fundo.
@@ -25,12 +27,11 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
             
   *   Configura estilos `ttk` para uma aparência melhorada dos widgets.
         
-        **Barra de Menu:**
+      **3-Barra de Menu:**
         
         Cria uma barra de menu com "Arquivo" (opção "Sair") e "Ajuda"
-                (opção "Sobre...").
                 
- **Frame de Controles (`controls_frame`):**
+ **4-Frame de Controles (`controls_frame`):**
         
   *   Contém widgets para interação do usuário:
             
@@ -50,27 +51,27 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
                 
   *   `ttk.Button` (`reset_button`): Para interromper a ordenação e resetar.
                 
-      **Frame de Exibição Principal (`main_display_frame`):**
+  **5-Frame de Exibição Principal (`main_display_frame`):**
         
-       * `tk.Canvas` (`canvas`): Área onde as barras representando os dados são desenhadas e animadas.
+  * `tk.Canvas` (`canvas`): Área onde as barras representando os dados são desenhadas e animadas.
             
-      *  Frame de Explicação (`explanation_frame`):
+*  Frame de Explicação (`explanation_frame`):
             
-        *   `ttk.Label` (`explanation_title`): Título do algoritmo selecionado.
+*   `ttk.Label` (`explanation_title`): Título do algoritmo selecionado.
                 
-              `tk.Text` (`explanation_text_widget`): Exibe o texto explicativo do algoritmo (conteúdo de `EXPLANATIONS`).
+*  `tk.Text` (`explanation_text_widget`): Exibe o texto explicativo do algoritmo (conteúdo de `EXPLANATIONS`).
                 
-        *   **Barra de Status (`status_bar`):**
+  **6-Barra de Status (`status_bar`):**
         
-      *    `ttk.Label` no rodapé para exibir mensagens de status e contagem de comparações/trocas.
+*    `ttk.Label` no rodapé para exibir mensagens de status e contagem de comparações/trocas.
             
-        *   Inicializa a contagem de `comparisons` e `swaps`.
+*   Inicializa a contagem de `comparisons` e `swaps`.
         
-        *   Chama `generate_data()` e `update_explanation_display()` na inicialização.
+*   Chama `generate_data()` e `update_explanation_display()` na inicialização.
         
-        *   Configura o protocolo `WM_DELETE_WINDOW` para chamar `confirm_exit`.
+*   Configura o protocolo `WM_DELETE_WINDOW` para chamar `confirm_exit`.
 
-  **Métodos de Interface e Lógica:**
+  **7-Métodos de Interface e Lógica:**
         *  `show_about_dialog()`: Cria e exibe uma janela `Toplevel` modal com as informações dos alunos (`STUDENT_INFO`).
         
   *   `update_status(message)`: Atualiza o texto da barra de status.
@@ -91,40 +92,48 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
         
   *   `confirm_exit()`: Exibe um `messagebox` de confirmação antes de fechar a aplicação, especialmente se uma ordenação estiver em andamento.
 
-  **Geradores de Algoritmos de Ordenação (`_gen`):**
-        *   `bubble_sort_gen()`, `selection_sort_gen()`, `insertion_sort_gen()`:
-            *   Implementações dos algoritmos modificadas para funcionar como geradores.
-            *   Usam `yield color_info` em cada passo crucial (comparação, troca) para "pausar" a execução do algoritmo e permitir que a GUI se atualize.
-            *   Incrementam `self.comparisons` e `self.swaps` conforme apropriado.
-            *   O dicionário `color_info` retornado instrui `draw_data` sobre como colorir as barras para o passo atual.
+  **8-Geradores de Algoritmos de Ordenação (`_gen`):**
 
-    *   **Bloco `if __name__ == "__main__":`:**
-        *   Ponto de entrada padrão para iniciar a aplicação Tkinter, criando a janela raiz e instanciando `SortingVisualizerApp`.
+  *   `bubble_sort_gen()`, `selection_sort_gen()`, `insertion_sort_gen()`:
+    
+*   Implementações dos algoritmos modificadas para funcionar como geradores.
+  
+ *   Usam `yield color_info` em cada passo crucial (comparação, troca) para "pausar" a execução do algoritmo e permitir que a GUI se atualize.
 
-**2. `setup.py` (Script de Build com `cx_Freeze`):**
+*   Incrementam `self.comparisons` e `self.swaps` conforme apropriado.
+  
+  *   O dicionário `color_info` retornado instrui `draw_data` sobre como colorir as barras para o passo atual.
+
+  **9-Bloco `if __name__ == "__main__":`:**
+  
+  *   Ponto de entrada padrão para iniciar a aplicação Tkinter, criando a janela raiz e instanciando `SortingVisualizerApp`.
+
+# **2. `setup.py` (Script de Build com `cx_Freeze`):**
 
 Este script é usado para compilar o `EstruturadeOrdenacao.py` em um executável standalone, facilitando a distribuição.
 
-*   **Importações:** `sys` e `cx_Freeze` (módulos `setup`, `Executable`).
-*   **Configuração de `base`:**
+*   **1-Importações:** `sys` e `cx_Freeze` (módulos `setup`, `Executable`).
+  
+*   **2-Configuração de `base`:**
+  
     *   Define `base = "Win32GUI"` na plataforma Windows para suprimir a janela de console que apareceria por padrão com aplicações GUI.
-*   **`script_principal`:**
+*   **3-`script_principal`:**
     *   Variável que armazena o nome do arquivo Python principal a ser compilado
         (definido como "EstruturadeOrdenacao.py").
-*   **`build_exe_options`:**
+*   **4-`build_exe_options`:**
     *   Dicionário de opções para o processo de build:
         *   `packages`: Lista explicitamente os pacotes necessários (`tkinter`, `random`, `time`).
         *   `includes`, `excludes`: Para controle fino de módulos (vazios neste caso).
         *   `include_files`: Para incluir arquivos de dados adicionais (vazio aqui).
         *   `optimize`: Nível de otimização do bytecode (definido como 2).
-*   **`executables`:**
+*   **5-`executables`:**
     *   Lista contendo uma instância de `Executable`.
     *   Define o script a ser compilado (`script_principal`), a `base` configurada anteriormente, o nome do arquivo executável de saída
         (`target_name="VisualizadorOrdenacao.exe"`), e um placeholder para um ícone (atualmente `None`).
-*   **Função `setup()`:**
+*   **6-Função `setup()`:**
     *   Chamada principal do `cx_Freeze` que configura o processo de build.
     *   Inclui metadados da aplicação como `name`, `version`, `description`, `author`.
     *   Passa as `build_exe_options` e a lista de `executables`.
-*   **Mensagens Informativas:**
+*   **7-Mensagens Informativas:**
     *   Imprime instruções no console sobre como executar o build
         (`python setup.py build`).
