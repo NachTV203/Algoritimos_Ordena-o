@@ -41,6 +41,23 @@ Por fim, aplicado para o intervalo [6,values.length−1], temos que 100 já est�
 Feito! O array está ordenado. Note que apenas executamos a rotina de encontrar o menor e colocar na primeira posição várias vezes. Para ser exato, executamos N
  vezes, variando a faixa de valores que o algoritmo deve avaliar.
 
+  ...
+public static void selectionSort(int[] v) {	--Ordenar o vetor usando selection sort
+	for (int i = 0; i < v.length; i++) {  --percorre a posição do vetor
+		
+		int i_menor = i;   --o menor vetor está na posição  
+		for (int j = i + 1; j < v.length; j++)   --percorre o restante do vetor  
+			if (v[j] < v[i_menor])     --se encontrar um valor menor
+				i_menor = j;    --atualiza o indice de menor valor
+		
+		int aux = v[i];    --guarda o valor atual
+		v[i] = v[i_menor];   --coloca o menor valor na posição atual
+		v[i_menor] = aux;   --Coloca o valor antigo (de i) na posição onde estava o menor
+	
+	}		
+}
+...
+
 
 
 
