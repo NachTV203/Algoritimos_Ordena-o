@@ -3,12 +3,11 @@ Algoritmo Selection Sort com exemplo lúdico
 
 Descrição:
 Pensa que você tem uma lista de figurinhas toda bagunçada.
-O jeito que o Selection Sort funciona é: ele procura a menor figurinha da lista toda
+O jeito que o Selection Sort funciona e: ele procura a menor figurinha da lista toda
 e troca ela com a que está no começo.
-
-Depois ele faz a mesma coisa pro resto da lista,
+Depois ele faz a mesma coisa pro resto da lista
 sempre pegando a menor que ainda não está no lugar certo.
-No final, tudo fica organizado.
+No final tudo fica organizado.
 """
 
 def selection_sort(figurinhas):
