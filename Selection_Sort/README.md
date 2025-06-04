@@ -2,7 +2,7 @@
 
 
 Selecionando o menor.
-O Selection Sort é um algoritmo de ordenação simples que funciona selecionando o menor elemento não ordenado e movendo-o para a posição correta. Em cada passo, o algoritmo encontra o elemento mínimo na parte não ordenada da lista e troca com o elemento na posição atual. Esse processo é repetido até que toda a lista esteja ordenada. 
+O Selection Sort é um algoritmo de ordenação simples que funciona selecionando o menor elemento não ordenado e movendo-o para a posição correta. Em cada passo, o algoritmo encontra o elemento mínimo na parte não ordenada da lista e troca com o elemento na posição atual. Esse processo é repetido até que toda a lista esteja ordenada.
 
 
 ## Exemplo:
