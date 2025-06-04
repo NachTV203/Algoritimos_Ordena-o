@@ -1,11 +1,20 @@
-*1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):*
+# Algoritmos de Ordenação 
+
+Nosso Commit apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação. 
+
+# 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):*
 
 O script também contém a lógica principal da aplicação GUI construída usando Tkinter.
 
-*   **Estruturas de Dados Iniciais:**
-    *   `EXPLANATIONS`: Dicionário que armazena os textos explicativos detalhados para cada algoritmo de ordenação.
-    *   `BAR_COLOR`, `COMPARE_COLOR`, `SWAP_COLOR`, `SORTED_COLOR`: Constantes de cores para a representação visual das barras durante a ordenação.
-    *   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
+Obs: Aplicação GUI é um programa de computador que permite a comunicação com um computador por meio de símbolos, metáforas visuais e dispositivos apontadores.
+
+**Estruturas de Dados Iniciais:**
+
+* `EXPLANATIONS`: Dicionário que armazena os textos explicativos detalhados para cada algoritmo de ordenação.
+  
+*   `BAR_COLOR`, `COMPARE_COLOR`, `SWAP_COLOR`, `SORTED_COLOR`: Constantes de cores para a representação visual das barras durante a ordenação.
+    
+*   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
 
 *   **Classe Principal `SortingVisualizerApp`:**
     *   **`__init__(self, master)` (Construtor e Configuração da UI):**
