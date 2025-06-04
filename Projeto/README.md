@@ -34,35 +34,35 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
         
   *   Contém widgets para interação do usuário:
             
-  *   `ttk.Combobox` (`algo_menu`): Para selecionar o algoritmo de ordenação.
+ *   `ttk.Combobox` (`algo_menu`): Para selecionar o algoritmo de ordenação.
                     Vinculado a `update_explanation_display`.
                     
-                *   `ttk.Scale` (`size_scale`): Para ajustar o tamanho da lista de dados.
+*   `ttk.Scale` (`size_scale`): Para ajustar o tamanho da lista de dados.
                     Vinculado a `generate_data`.
                     
-                *   `ttk.Scale` (`speed_scale`): Para controlar a velocidade da animação.
+  *   `ttk.Scale` (`speed_scale`): Para controlar a velocidade da animação.
                 
-                *   `ttk.Button` (`generate_button`): Para gerar uma nova lista aleatória.
+*    `ttk.Button` (`generate_button`): Para gerar uma nova lista aleatória.
                 
-                *   `ttk.Button` (`start_button`): Para iniciar o processo de ordenação.
+  *   `ttk.Button` (`start_button`): Para iniciar o processo de ordenação.
                 
-                *   `ttk.Button` (`pause_button`): Para pausar/continuar a animação.
+*    `ttk.Button` (`pause_button`): Para pausar/continuar a animação.
                 
-                *   `ttk.Button` (`reset_button`): Para interromper a ordenação e resetar.
+  *   `ttk.Button` (`reset_button`): Para interromper a ordenação e resetar.
                 
-        *   **Frame de Exibição Principal (`main_display_frame`):**
+      **Frame de Exibição Principal (`main_display_frame`):**
         
-            *   `tk.Canvas` (`canvas`): Área onde as barras representando os dados são desenhadas e animadas.
+       * `tk.Canvas` (`canvas`): Área onde as barras representando os dados são desenhadas e animadas.
             
-            *   Frame de Explicação (`explanation_frame`):
+      *  Frame de Explicação (`explanation_frame`):
             
-                *   `ttk.Label` (`explanation_title`): Título do algoritmo selecionado.
+        *   `ttk.Label` (`explanation_title`): Título do algoritmo selecionado.
                 
-                *   `tk.Text` (`explanation_text_widget`): Exibe o texto explicativo do algoritmo (conteúdo de `EXPLANATIONS`).
+              `tk.Text` (`explanation_text_widget`): Exibe o texto explicativo do algoritmo (conteúdo de `EXPLANATIONS`).
                 
         *   **Barra de Status (`status_bar`):**
         
-            *   `ttk.Label` no rodapé para exibir mensagens de status e contagem de comparações/trocas.
+      *    `ttk.Label` no rodapé para exibir mensagens de status e contagem de comparações/trocas.
             
         *   Inicializa a contagem de `comparisons` e `swaps`.
         
@@ -70,7 +70,7 @@ Obs: Aplicação GUI é um programa de computador que permite a comunicação co
         
         *   Configura o protocolo `WM_DELETE_WINDOW` para chamar `confirm_exit`.
 
-    *   **Métodos de Interface e Lógica:**
+  **Métodos de Interface e Lógica:**
            `show_about_dialog()`: Cria e exibe uma janela `Toplevel` modal com as informações dos alunos (`STUDENT_INFO`).
         *   `update_status(message)`: Atualiza o texto da barra de status.
         *   `update_explanation_display(event=None)`: Atualiza o painel de explicação com base no algoritmo selecionado.
