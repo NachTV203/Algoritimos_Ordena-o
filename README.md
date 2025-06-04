@@ -76,6 +76,10 @@ python main.py
   
 - Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python. Versão original em inglês por Brad Miller e David Ranum, Luther College. Traduzido por Andrew Toshiaki Nakayama Kurauchi, Carlos Eduardo Leão Elmadjian, Carlos Hitoshi Morimoto e José Coelho de Pina, IME-USP.
 
+## 🎞 Youtube
+
+- https://www.youtube.com/watch?v=olFUonLqzNc
+
 ## 📚 Alunos Responsaveis
 
 - Beatriz Nevis Miranda - UDF - Ciência da Computação
