@@ -1,7 +1,6 @@
 # 📊 Algoritmos de Ordenação
 
-
-Nosso Commit apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico que se adequa ao comando. 
+Algoritmo de ordenação é um algoritmo, de manipulação de dados, que coloca os elementos de uma dada sequência em uma certa ordem, em outras palavras, efetua sua ordenação completa ou parcial. Nosso Projeto apresenta uma aplicação em python completa para a visualização interativa de algoritmos de ordenação utilizando também um gráfico.. 
 
 # ⚙️ 1. `EstruturadeOrdenacao.py` (Visualizador de Ordenação Interativo):
 
@@ -18,7 +17,7 @@ Obs2: Tkinter é uma biblioteca da linguagem Python que acompanha a instalação
 *   `BAR_COLOR`, `COMPARE_COLOR`, `SWAP_COLOR`, `SORTED_COLOR`: São constantes de cores para a representação visual das barras durante a ordenação.
     
 *   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
-
+  
   **2-Classe Principal `SortingVisualizerApp`:**
   * `__init__(self, master)` (Construtor e Configuração da UI):
     
@@ -28,9 +27,9 @@ Obs2: Tkinter é uma biblioteca da linguagem Python que acompanha a instalação
             
   *   Configura estilos `ttk` para uma aparência melhorada dos widgets.
         
-      **3-Barra de Menu:**
+  **3-Barra de Menu:**
         
-        Cria uma barra de menu com "Arquivo" (opção "Sair") e "Ajuda"
+  * Cria uma barra de menu com "Arquivo" (opção "Sair") e "Ajuda"
                 
  **4-Frame de Controles (`controls_frame`):**
         
@@ -107,7 +106,7 @@ Obs2: Tkinter é uma biblioteca da linguagem Python que acompanha a instalação
 
   **9-Bloco `if __name__ == "__main__":`:**
   
-  *   Ponto de entrada padrão para iniciar a aplicação Tkinter, criando a janela raiz e instanciando `SortingVisualizerApp`.
+ * Ponto de entrada padrão para iniciar a aplicação Tkinter, criando a janela raiz e instanciando `SortingVisualizerApp`.
 
 # ❄️ **2. `setup.py` (Script de Build com `cx_Freeze`):**
 
