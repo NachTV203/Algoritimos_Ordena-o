@@ -13,9 +13,9 @@ Obs2: Tkinter é uma biblioteca da linguagem Python que acompanha a instalação
 
 **1-Estruturas de Dados Iniciais:**
 
-* `EXPLANATIONS`: Dicionário que armazena os textos explicativos detalhados para cada algoritmo de ordenação.
+* `EXPLANATIONS`: É um dicionário que armazena os textos explicativos detalhados para cada algoritmo de ordenação.
   
-*   `BAR_COLOR`, `COMPARE_COLOR`, `SWAP_COLOR`, `SORTED_COLOR`: Constantes de cores para a representação visual das barras durante a ordenação.
+*   `BAR_COLOR`, `COMPARE_COLOR`, `SWAP_COLOR`, `SORTED_COLOR`: São constantes de cores para a representação visual das barras durante a ordenação.
     
 *   `STUDENT_INFO`: String multilinha contendo os créditos dos alunos responsáveis pelo projeto.
 
