@@ -1,6 +1,8 @@
 # Algoritmos de Ordenação em Python Utilizando `sort`
 
-Este repositório tem como objetivo demonstrar a implementação de algoritmos clássicos de ordenação utilizando a linguagem Python. Os algoritmos abordados são:
+Este repositório tem como objetivo demonstrar a implementação de algoritmos clássicos de ordenação utilizando a linguagem Python, este repositorio consiste como um projeto academico utilizado para o aprendizado dos demais alunos e para a comclusão da materia de Estrutura de Dados 1, os alunos na qual fizeram esse repositorio estão todos no terceiro semestre do curso de Ciência da Computação na instituição UDF.
+
+## 0️⃣1️⃣0️⃣Os algoritmos abordados são:
 
 - Bubble Sort  
 - Selection Sort  
