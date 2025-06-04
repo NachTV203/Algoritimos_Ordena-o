@@ -55,7 +55,6 @@ public static void selectionSort(int[] v) {	--Ordenar o vetor usando selection s
 		v[i_menor] = aux;   --Coloca o valor antigo (de i) na posição onde estava o menor
 	
 	}		
-...
 
 
 
